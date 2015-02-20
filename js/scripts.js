@@ -1,6 +1,6 @@
 var Pizza = {
-  type: "",
-  size: 0,
+  toppings: "",
+  inches: 0,
   slices: 0,
   order: function(number){
     var inches = number;
@@ -20,5 +20,11 @@ var Pizza = {
 
 $(document).ready(function(){
   var pizza = Object.create(Pizza);
-  
+  $("form#order").submit(function(event){
+    var toppings = $(".toppings").val();
+    var inches = parseInt($("input#size-in-inches").val());
+    pizza.toppings = toppings;
+    pizza.inches = inches;
+    pizza.order(inches);
+  });
 });
