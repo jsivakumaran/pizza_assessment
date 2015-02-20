@@ -1,6 +1,6 @@
 ## Description
 
-It is a basic front-end for a pizza parlour.  It has a method to calculate the number of slices using the size (in inches) of the pizza that the user would like to create.  It also allows for cheese or pepporoni for toppings.  
+It is a basic front-end for a pizza parlour.  It has a method to calculate the number of slices using the size (in inches) of the pizza and type (cheese pizzas have larger slices) that the user would like to create.  It also allows for cheese or pepporoni for toppings.  
 
 ## Setup Instructions
 
