@@ -26,6 +26,15 @@ $(document).ready(function(){
     pizza.toppings = toppings;
     pizza.inches = inches;
     pizza.calculateSlices(inches);
+
+    $(".type").text(pizza.toppings);
+    $(".inches").text(pizza.inches);
+    $(".slices").text(pizza.slices);
+    event.preventDefault();
+    if(pizza.slices !== 0){
+      $(".info").show();
+    }
   });
+
 
 });
