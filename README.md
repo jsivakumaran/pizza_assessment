@@ -4,7 +4,14 @@ It is a basic front-end for a pizza parlour.  It has a method to calculate the n
 
 ## Setup Instructions
 
-Git clone the repository.  Check out the specs by opening the ./spec/spec_runner.html in a browser.  Run the site using ./pizza.html
+Git clone the repository.  Check out the specs by:
+```bash
+open ./spec/spec_runner.html  
+```
+Run the site using:
+```
+open ./pizza.html
+```
 
 ## Copyright
 
