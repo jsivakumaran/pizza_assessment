@@ -8,7 +8,7 @@ Git clone the repository.  Check out the specs by opening the ./spec/spec_runner
 
 ## Copyright
 
-Jeyananthan Sivakumaran 2015
+&copy; Jeyananthan Sivakumaran 2015
 
 ## License
 
