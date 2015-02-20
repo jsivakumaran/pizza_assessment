@@ -2,7 +2,7 @@ var Pizza = {
   toppings: "",
   inches: 0,
   slices: 0,
-  order: function(number){
+  calculateSlices: function(number){
     var inches = number;
     if(isNaN(inches)){
       this.slices=0;
@@ -25,6 +25,7 @@ $(document).ready(function(){
     var inches = parseInt($("input#size-in-inches").val());
     pizza.toppings = toppings;
     pizza.inches = inches;
-    pizza.order(inches);
+    pizza.calculateSlices(inches);
   });
+
 });
